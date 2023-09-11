@@ -22,7 +22,7 @@ html {
     margin: 0 auto;
 }
 
-ul, li {
+ul, li, .annulment {
     text-decoration: none;
     list-style: none;
 }
@@ -30,6 +30,12 @@ ul, li {
 .flex {
     display: flex;
     justify-content: space-between;
+}
+
+.paragraph-font {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 23px;
 }
 
 .button a {
@@ -41,6 +47,18 @@ ul, li {
 .col-12 {
     width: 100%;
 }
+
+.col-4 {
+    width: calc((100% /12) * 4);
+    line-height: 35px;
+}
+
+.col-8 {
+    width: calc((100% /12) * 8);
+
+}
+
+
 
 /* BACK-GROUND COLOR */
 
@@ -84,6 +102,29 @@ ul, li {
     padding-top: 70px;
     padding-bottom: 25px;
     line-height: 90px;
+}
+
+.hero-img {
+    width: 100%;
+    display: block;
+}
+
+.hero-CTA {
+    padding-top: 25px;
+}
+
+.hero-button {
+    padding-top: 25px;
+}
+
+.hero-button .annulment {
+    color: black;  
+}
+
+.hero-icon i {
+    font-size: 50px;
+    margin-top: 100px;
+    
 }
 
 
