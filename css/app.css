@@ -27,6 +27,10 @@ ul, li, .annulment {
     list-style: none;
 }
 
+.text-align {
+    text-align: center;
+}
+
 .flex {
     display: flex;
     justify-content: space-between;
@@ -38,24 +42,58 @@ ul, li, .annulment {
     line-height: 23px;
 }
 
+.font-size-h3 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.font-size-13px {
+    font-size: 13px;
+    font-weight: 300;
+    /* line-height: 23px; */
+}
+
+.font-size-13px-bold {
+    font-size: 13px;
+    font-weight: 700;
+    /* line-height: 23px; */
+}
+
+.font-size-22px {
+    font-size: 22px;
+    font-weight: 600;
+}
+
 .button a {
     color: white;
     text-decoration: none;
     padding: 5px 10px;
 }
 
+.blue-link {
+    color: blue;
+}
+
 .col-12 {
     width: 100%;
+    /* border: 1px solid black; */
+    height: 300px;
 }
 
 .col-4 {
     width: calc((100% /12) * 4);
     line-height: 35px;
+    /* border: 1px solid red; */
 }
 
 .col-8 {
     width: calc((100% /12) * 8);
 
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -101,7 +139,7 @@ ul, li, .annulment {
     padding-right: 130px;
     padding-top: 70px;
     padding-bottom: 25px;
-    line-height: 90px;
+    line-height: 80px;
 }
 
 .hero-img {
@@ -132,6 +170,65 @@ ul, li, .annulment {
     z-index: -1;
     height: 690px;
 }
+
+/* MAIN - SUBSCRIPTION-CARDS */
+
+.subscription-plan {
+    padding-top: 25px;
+}
+
+.subscription-plan-title {
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.subscription-header {
+    padding-bottom: 50px;
+}
+
+.payment-type input, label {
+    padding-right: 90px;
+}
+
+.product-purpose {
+    padding: 25px 25px;
+}
+
+.user-type {
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.card-wrapper-singolo {
+    border: 1px solid lightgray;
+    margin-right: 25px;
+    
+}
+
+.info-list, .info-list .button  {
+    padding-top: 40px;
+}
+
+.card-link-cta {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.punti-salienti {
+    padding-top: 25px;
+    line-height: 40px;
+}
+
+.fa-check {
+    color: blue;
+}
+
+
+
+
+
+
 
 
 
