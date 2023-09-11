@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.container-med {
+    max-width: 1200px;
+}
+
+.container-sm {
+    max-width: 1050px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
