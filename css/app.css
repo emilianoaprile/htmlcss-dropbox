@@ -36,6 +36,11 @@ ul, li, .annulment {
     justify-content: space-between;
 }
 
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
 .paragraph-font {
     font-size: 15px;
     font-weight: 300;
@@ -50,13 +55,11 @@ ul, li, .annulment {
 .font-size-13px {
     font-size: 13px;
     font-weight: 300;
-    /* line-height: 23px; */
 }
 
 .font-size-13px-bold {
     font-size: 13px;
     font-weight: 700;
-    /* line-height: 23px; */
 }
 
 .font-size-22px {
@@ -76,18 +79,19 @@ ul, li, .annulment {
 
 .col-12 {
     width: 100%;
-    /* border: 1px solid black; */
-    height: 300px;
+    padding: 0 25px;
 }
 
 .col-4 {
     width: calc((100% /12) * 4);
-    line-height: 35px;
+    padding: 0 25px;
+    margin-top: 25px;
     /* border: 1px solid red; */
 }
 
 .col-8 {
     width: calc((100% /12) * 8);
+    /* border: 1px solid black; */
 
 }
 
@@ -95,8 +99,6 @@ ul, li, .annulment {
     display: flex;
     flex-wrap: wrap;
 }
-
-
 
 /* BACK-GROUND COLOR */
 
@@ -108,6 +110,9 @@ ul, li, .annulment {
     background-color: #B4D0E7;
 }
 
+.bg-color-white {
+    background-color: white;
+}
 
 /* HEADER */
 
@@ -139,7 +144,6 @@ ul, li, .annulment {
     padding-right: 130px;
     padding-top: 70px;
     padding-bottom: 25px;
-    line-height: 80px;
 }
 
 .hero-img {
@@ -152,7 +156,7 @@ ul, li, .annulment {
 }
 
 .hero-button {
-    padding-top: 25px;
+    margin-top: 25px;
 }
 
 .hero-button .annulment {
@@ -161,15 +165,15 @@ ul, li, .annulment {
 
 .hero-icon i {
     font-size: 50px;
-    margin-top: 80px;
+    margin-top: 75px;
     
 }
 
-.hero {
+/* .hero {
     position: relative;
     z-index: -1;
     height: 690px;
-}
+} */
 
 /* MAIN - SUBSCRIPTION-CARDS */
 
@@ -178,12 +182,11 @@ ul, li, .annulment {
 }
 
 .subscription-plan-title {
-    padding-top: 25px;
-    padding-bottom: 50px;
+    padding: 50px 25px;
 }
 
-.subscription-header {
-    padding-bottom: 50px;
+.payment-type {
+    padding: 0 25px;
 }
 
 .payment-type input, label {
@@ -192,6 +195,7 @@ ul, li, .annulment {
 
 .product-purpose {
     padding: 25px 25px;
+    position: relative;
 }
 
 .user-type {
@@ -199,33 +203,103 @@ ul, li, .annulment {
     border-bottom: 1px solid lightgray;
 }
 
-.card-wrapper-singolo {
-    border: 1px solid lightgray;
-    margin-right: 25px;
-    
+.card-wrapper {
+    border: 1px solid lightgray;    
 }
 
 .info-list, .info-list .button  {
-    padding-top: 40px;
+    padding-top: 45px;
+    padding-bottom: 40px;
+    margin: 0 auto;
 }
 
-.card-link-cta {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    border-bottom: 1px solid lightgrey;
+.info-list li {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .punti-salienti {
-    padding-top: 25px;
+    padding-top: 45px;
     line-height: 40px;
+    border-top: 1px solid lightgrey;
 }
 
 .fa-check {
     color: blue;
 }
 
+.card-icon {
+    padding-right: 5px;
+}
 
+.contact {
+    display: inline-block;
+    padding-top: 30px;
+}
 
+/* .enterprise-button {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+} */
+
+.enterprise-paragraph {
+    padding-top: 50px;
+}
+
+.card {
+    margin-top: 50px;
+}
+
+.period-payment {
+    margin-top: 20px;
+}
+
+.product-purpose-title .partner-title {
+    margin-bottom: 20px;
+}
+
+/* PARTNER -SECTION */
+
+.partner-section {
+    margin-top: 150px;
+}
+
+.partner-img {
+    width: 100%;
+    display: block;
+}
+
+.partner-title{
+    padding: 100px 0 15px 0;
+}
+
+.button-partner {
+    padding-top: 30px;
+}
+
+.button-partner a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid black;
+}
+
+/* INFORMATIONS -SECTION */
+
+.information-img {
+    width: 100%;
+    display: block;
+    padding-bottom: 30px;
+}
+
+.information-title {
+    padding-bottom: 30px;
+}
+
+.section-informations-title {
+    padding: 160px 0 30px;
+}
 
 
 
