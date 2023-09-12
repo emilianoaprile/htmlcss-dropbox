@@ -75,6 +75,7 @@ ul, li, .annulment {
 
 .blue-link {
     color: blue;
+    font-size: 15px;
 }
 
 .col-12 {
@@ -93,6 +94,18 @@ ul, li, .annulment {
     width: calc((100% /12) * 8);
     /* border: 1px solid black; */
 
+}
+
+.col-designit {
+    width: calc(100% / 3);
+    border: 1px solid black;
+    height: 635px;
+}
+
+.col-square {
+    flex-basis: 50%;
+    border: 2px solid red;
+    height: 50%;
 }
 
 .row {
@@ -297,9 +310,16 @@ ul, li, .annulment {
     padding-bottom: 30px;
 }
 
-.section-informations-title {
+.section-informations-title  {
     padding: 160px 0 30px;
 }
+
+/* CUSTOMERS -CTA */
+
+.customer-cta-title {
+    padding: 160px 0 50px;
+}
+
 
 
 
