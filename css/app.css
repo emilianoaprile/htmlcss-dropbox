@@ -106,6 +106,8 @@ ul, li, .annulment {
     flex-basis: 50%;
     border: 2px solid red;
     height: 50%;
+    display: grid;
+    justify-content: center;
 }
 
 .row {
@@ -320,6 +322,14 @@ ul, li, .annulment {
     padding: 160px 0 50px;
 }
 
+/* DESIGNIT */
+
+.col-square > .logo-item {
+    align-self: center;
+    width: 145px;
+}
+
+
 
 
 
@@ -346,6 +356,8 @@ ul, li, .annulment {
     min-height: 500px;
     
 }  */
+
+
 
 
 
